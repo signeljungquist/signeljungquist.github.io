@@ -1,0 +1,38 @@
+body{
+  background-color:LightSalmon;
+  font-family: arial;
+  font-size: 15px;
+}
+
+p{
+background-color:;
+padding: 40px
+}
+
+h1{
+  color: white;
+  background-color: pink;
+}
+
+p,h1{
+  color: white;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+ul a{
+  display: block;
+  background-color: HotPink;
+  width: 150px;
+  padding: 10px;
+  margin: 2px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+}
+ul a:hover{
+  background-color: white;
+}
