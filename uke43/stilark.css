@@ -1,0 +1,65 @@
+body{
+  font-family: helvetica, sans-serif;
+  background-color: #d2a679;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+h1, .navn, .tall{
+  text-align: center;
+}
+.metaller, .grunnstoff-metall{
+  background-color: lightblue;
+  padding-left: 10px;
+}
+.metaller:hover{
+  background-color: white;
+}
+.halv-metaller, .grunnstoff-halv-metall{
+  background-color: #ffb3b3;
+  padding-left: 10px;
+}
+.halv-metaller:hover{
+  background-color: white;
+}
+.ikke-metaller, .grunnstoff-ikke-metall{
+  background-color: lightgreen;
+  padding-left: 10px;
+}
+.ikke-metaller:hover{
+  background-color: white;
+}
+
+section{
+  display: grid;
+  grid-gap: 4px;
+  /*grid-template-columns: 40px 40px 40px 40px;*/
+  /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+  grid-template-columns: repeat(18, 50px);
+  grid-auto-rows: minmax(40px, 80px);
+}
+.span-6{
+  grid-column: span 16;
+}
+.span-4{
+  grid-column: span 10;
+}
+.span-12{
+  grid-column: span 10;
+}
+.usynlig{
+  opacity:0;
+}
+/*.span-nedover-3{
+  grid-row: span 3;
+}*/
+.tall{
+  font-size: 22px;
+}
+.tall:hover{
+  background-color: white;
+}
+.grunnstoff-metall, .grunnstoff-halv-metall, .grunnstoff-ikke-metall{
+  padding-top: 20px;
+  text-align: left;
+  padding-right: 10px;
+}
