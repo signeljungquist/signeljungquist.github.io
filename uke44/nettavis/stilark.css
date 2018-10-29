@@ -1,0 +1,40 @@
+body{
+  width: 900px;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+header{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 2fr 5fr 1fr 1fr 1fr;
+  background-color: grey;
+  width: 934px;
+  text-align: center;
+}
+header>.lenke{
+  align-self: center;
+}
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  grid-auto-rows: minmax(50px,auto);
+}
+main>section{
+  background-color: lightpink;
+}
+.middelssak{
+grid-column: span 2;
+grid-row: span 2;
+
+}
+.litensak{
+
+}
+
+.storsak{
+grid-column: span 3;
+grid-row: span 3;
+
+}
