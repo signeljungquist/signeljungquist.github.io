@@ -1,0 +1,28 @@
+body{
+  background-color: lightsteelblue;
+  margin: 0;
+}
+nav{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: grey;
+  text-align: center;
+  width: 100%;
+}
+header>.lenke{
+  align-self: center;
+}
+header>.lenke>a{
+  color: white;
+  text-decoration: none;
+}
+#logo{
+  text-align: center;
+  margin: auto;
+  width: 200px;
+}
+.usynlig{
+  opacity:0;
+  grid-column: span 16;
+}
