@@ -5,24 +5,68 @@ body{
 nav{
   text-align: center;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  background-color: grey;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color:grey;
   text-align: center;
   width: 100%;
 }
-header>.lenke{
-  align-self: center;
-}
-header>.lenke>a{
+nav>.lenke>a{
   color: white;
   text-decoration: none;
+}
+nav>footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(50px,auto)
 }
 #logo{
   text-align: center;
   margin: auto;
   width: 200px;
-}
+  background-color: grey;
+}1
 .usynlig{
   opacity:0;
   grid-column: span 16;
+}
+header{
+  background-color: grey;
+}
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(50px,auto);
+}
+footer{
+  background-color: grey;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(50px,auto);
+}
+.stortbilde{
+  grid-column: span 4;
+  grid-row: span 4;
+}
+.middelbilde{
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.litebilde{
+  grid-column: span 1;
+  grid-row: span 1;
+}
+.tekst1{
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.tekst2{
+  grid-column: span 4;
+  grid-row: span 4;
+}
+.tekst3{
+  grid-column: span 2;
+  grid-row: span 2;
 }
