@@ -25,36 +25,90 @@
     </header>
 
     <main>
-      <h1>Våre restauranter</h1>
-      <section class="restauranter">
-        Akerbrygge
-        Adresse
-        <img src="bilde.jpg">
-        Nummer
-        Åpningstider
-      </section>
-      <section class="restauranter">
-        Bergen
-        Adresse
-        <img src="bilde.jpg">
-        Nummer
-        Åpningstider
-      </section>
-      <section class="restauranter">
-        Trondheim
-        Adresse
-        <img src="bilde.jpg">
-        Nummer
-        Åpningstider
-      </section>
-      <section class="restauranter">
-        Stavanger
-        Adresse
-        <img src="bilde.jpg">
-        Nummer
-        Åpningstider
-      </section>
+
+      <form action="register.html">
+        <h1><label>Din bestilling</label></h1>
+
+        <select name="Velg din restaurant" required>
+          <option value="Velg din restaurant">Velg din restaurant</option>
+          <option value="Aker brygge">Aker brygge</option>
+          <option value="Bergen">Bergen</option>
+          <option value="Trondheim">Trondheim</option>
+          <option value="Stavanger">Stavanger</option>
+        </select>
+
+        <label>Navn:</label>
+          <input type="text" name="navn" required placeholder="Skriv inn ditt navn">
+          <input type="number" name="Antall personer" required placeholder="Hvor mange er dere?">
+
+        <select name="Velg tidspunkt" required>
+          <option value="Velg tidpsunkt">Velg tidspunkt</option>
+          <option value="12:00">12:00</option>
+          <option value="13:00">13:00</option>
+          <option value="14:00">14:00</option>
+          <option value="15:00">15:00</option>
+          <option value="16:00">16:00</option>
+          <option value="17:00">17:00</option>
+          <option value="18:00">18:00</option>
+          <option value="19:00">19:00</option>
+          <option value="20:00">20:00</option>
+          <option value="21:00">21:00</option>
+          <option value="22:00">22:00</option>
+        </select>
+        <select name="Velg Måned" required>
+          <option value="Velg måned">Velg måned</option>
+          <option value="Januar">Januar</option>
+          <option value="Februar">Februar</option>
+          <option value="Mars">Mars</option>
+          <option value="April">April</option>
+          <option value="Mai">Mai</option>
+          <option value="Juni">Juni</option>
+          <option value="Juli">Juli</option>
+          <option value="August">August</option>
+          <option value="September">September</option>
+          <option value="Oktober">Oktober</option>
+          <option value="November">November</option>
+          <option value="Desember">Desember</option>
+        </select>
+        <select name="Velg dag" required>
+          <option value="Velg dag">Velg dag</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+        <button type="submit">Send inn</button>
+      </form>
+
     </main>
+
 
     <footer>
       <section>
@@ -62,13 +116,13 @@
       </section>
       <nav>
         <section class="kontaktinformasjon">
-          Kontakt oss
+          <a href="kontaktoss.html">Kontakt oss</a>
         </section>
         <section class="kontaktinformasjon">
-          Kart
+          <a href="kart.html">Kart</a>
         </section>
         <section class="kontaktinformasjon">
-          Cookie policy
+          <a href="cookiepolicy.html">Cookie policy</a>
         </section>
       </nav>
     </footer>
