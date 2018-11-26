@@ -15,10 +15,12 @@ nav>.lenke>a{
   text-decoration: none;
 }
 nav>footer{
+  text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  grid-auto-rows: minmax(50px,auto)
+  grid-auto-rows: minmax(50px,auto);
+  width: 100%;
 }
 #logo{
   text-align: center;
@@ -46,6 +48,11 @@ footer{
   grid-gap: 10px;
   grid-auto-rows: minmax(50px,auto);
 }
+a{
+  text-decoration: none;
+  color: white;
+}
+
 .stortbilde{
   grid-column: span 4;
   grid-row: span 4;
