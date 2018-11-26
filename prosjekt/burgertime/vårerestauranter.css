@@ -1,0 +1,12 @@
+.restauranter{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color:grey;
+  text-align: center;
+  width: 100%;
+}
+
+.usynlig{
+  opacity:0;
+}
