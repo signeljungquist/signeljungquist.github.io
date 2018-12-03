@@ -41,13 +41,14 @@ nav>footer{
 }
 header{
   background-color: grey;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 main{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   grid-auto-rows: minmax(50px,auto);
-  background-color: lightsteelblue;
+  background-color: white;
 }
 footer{
   background-color: grey;
@@ -58,7 +59,8 @@ footer{
 }
 a{
   text-decoration: none;
-  color: white;
+  color: black;
+  font-size: 30px;
 }
 .usynlig{
   opacity:0;
@@ -66,6 +68,7 @@ a{
 .stortbilde{
   grid-column: span 4;
   grid-row: span 4;
+  width: 10px;
 }
 .middelbilde{
   grid-column: span 2;
@@ -82,8 +85,39 @@ a{
 .tekst2{
   grid-column: span 4;
   grid-row: span 4;
+  text-align: center;
 }
 .tekst3{
   grid-column: span 2;
   grid-row: span 2;
 }
+
+
+
+
+
+
+<section>
+  <div class="stortbilde">
+    <img src="forside.jpeg">
+  </div>
+  <div class="tekst1">
+    <a href="anbefalinger.html">Våre anbefalinger</a>
+  </div>
+  <div class="middelbilde">
+    <img src="middelbilde.jpg">
+  </div>
+  <div class="tekst2">
+    <a href="stillinger.html">Bli en av oss
+      <br> Se våre ledige stillinger</a>
+  </div>
+  <div class="litebilde">
+    <img src="litebilde.jpg">
+  </div>
+  <div class="tekst3">
+      <a href="informasjon.html">Om burgerne våre</a>
+  </div>
+  <div class="litebilde">
+    <img src="litebilde.jpg">
+  </div>
+</section>
