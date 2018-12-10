@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>bestill bord</title>
     <link rel="stylesheet" href="stilark.css">
+    <link rel="stylesheet" href="bestillbord.css">
   </head>
 
   <body>
@@ -30,9 +31,7 @@
     <main>
 
       <form action="register.html">
-        <h1><label>Din bestilling</label></h1>
-
-        <section>
+        <section class="velg">
           <h3>Velg din restaurant</h3>
           <select name="Velg din restaurant" required>
             <option value="Velg din restaurant">Velg din restaurant</option>
@@ -43,15 +42,16 @@
           </select>
         </section>
 
-        <section>
-          <label>Navn:</label>
+        <section class="velg">
+          <label><p>Navn:</p></label>
             <input type="text" name="navn" required placeholder="Skriv inn ditt navn">
             <input type="number" name="Antall personer" required placeholder="Hvor mange er dere?">
         </section>
 
-        <section>
-          <select name="Velg tidspunkt" required>
-            <option value="Velg tidpsunkt">Velg tidspunkt</option>
+        <section class="velg">
+          <label><p>Velg tidspunkt:</p></label>
+          <select name="Velg klokkeslett" required>
+            <option value="Velg klokkeslett">Velg klokkeslett</option>
             <option value="12:00">12:00</option>
             <option value="13:00">13:00</option>
             <option value="14:00">14:00</option>
@@ -65,7 +65,7 @@
             <option value="22:00">22:00</option>
           </select>
         </section>
-        <section>
+        <section class="velg">
           <select name="Velg Måned" required>
             <option value="Velg måned">Velg måned</option>
             <option value="Januar">Januar</option>
@@ -82,7 +82,7 @@
             <option value="Desember">Desember</option>
           </select>
         </section>
-        <section>
+        <section class="velg">
           <select name="Velg dag" required>
             <option value="Velg dag">Velg dag</option>
             <option value="1">1</option>
@@ -118,8 +118,13 @@
             <option value="31">31</option>
           </select>
         </section>
-        <button type="submit">Send inn</button>
+        <section class="velg">
+          <button type="submit">Send inn</button>
+        </section>
       </form>
+      <section class="bestillbord">
+        <img src="bestillbord.jpg" alt="">
+      </section>
 
     </main>
 

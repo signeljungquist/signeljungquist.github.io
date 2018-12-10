@@ -1,5 +1,5 @@
 body{
-  background-color: ;
+  background-color: black;
   margin-left: 50px;
   margin-right: 50px;
 
@@ -55,10 +55,11 @@ header{
 }
 main{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   grid-auto-rows:;
-  background-color: white;
+  background-color: black;
+  margin-bottom: 20px;
 }
 footer{
   background-color: grey;
@@ -75,13 +76,31 @@ a{
 p{
   font-style: italic;
   font-size: 30px;
+  display: grid;
+  grid-gap: 4px;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+}
+b{
+  font-size: 40px;
 }
 li{
   font-style: italic;
+  color: white;
+}
+h3{
+  color: white;
+  font-style: italic;
+  font-size: 40px;
+}
+.bestillbord{
+  margin-top: 50px;
+}
+.velg{
+  margin-left: 40px;
 }
 .bilde{
   display: grid;
-
 }
 .usynlig{
   opacity:0;
