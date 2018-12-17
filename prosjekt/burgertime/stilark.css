@@ -89,7 +89,7 @@ h1{
   color: white;
   text-align: center;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr;
 }
 h2{
   margin: 0;
@@ -104,7 +104,7 @@ section class{
   margin: 0px;
 }
 .bestilling{
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 50px;
 }
 .kontaktinformasjon{
@@ -131,7 +131,7 @@ section class{
   grid-column: span 4;
   grid-row: span 4;
   width: 10px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .middelbilde{
   grid-column: span 2;
