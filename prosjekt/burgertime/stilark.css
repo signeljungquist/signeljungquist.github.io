@@ -70,6 +70,7 @@ a{
   font-size: 30px;
 }
 p{
+  margin: 0;
   font-style: italic;
   font-size: 30px;
   display: grid;
@@ -85,6 +86,7 @@ li{
   color: white;
 }
 h2{
+  margin: 0;
   font-size: 20px;
 }
 h3{
@@ -92,13 +94,20 @@ h3{
   font-style: italic;
   font-size: 40px;
 }
+section class{
+  margin: 0px;
+}
+.bestilling{
+  margin-top: 50px;
+  margin-left: 50px;
+}
 .kontaktinformasjon{
   margin-top: 0;
   color: black;
   font-style: normal;
   font-size: 20px;
   grid-template-columns: 1fr;
-  grid-gap: 
+  grid-gap:
 }
 .bestillbord{
   margin-top: 50px;
@@ -143,4 +152,7 @@ ul{
 }
 #bestilling{
   text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  
 }
