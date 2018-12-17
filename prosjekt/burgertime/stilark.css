@@ -62,9 +62,7 @@ main{
 footer{
   background-color: grey;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
-  grid-auto-rows: ;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 a{
   text-decoration: none;
@@ -99,7 +97,8 @@ h3{
   color: black;
   font-style: normal;
   font-size: 20px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 
 }
 .bestillbord{
   margin-top: 50px;
