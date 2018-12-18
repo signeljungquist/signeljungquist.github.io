@@ -60,7 +60,7 @@ main{
   margin-bottom: 20px;
 }
 footer{
-  background-color: grey;
+  background-color:;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -104,16 +104,16 @@ section class{
   margin: 0px;
 }
 .bestilling{
-  margin-top: 30px;
+  margin-top: 70px;
+  margin-bottom: 70px;
   margin-left: 50px;
 }
 .kontaktinformasjon{
   margin-top: 0;
-  color: black;
+  color: darkgrey;
   font-style: normal;
   font-size: 20px;
   grid-template-columns: 1fr;
-  grid-gap:
 }
 .bestillbord{
   margin-top: 50px;
@@ -159,7 +159,6 @@ ul{
 }
 #bestilling{
   text-align: center;
-  margin-top: 50px;
-  font-size: 40px;
-
+  margin-top: 70px;
+  font-size: 30px;
 }
