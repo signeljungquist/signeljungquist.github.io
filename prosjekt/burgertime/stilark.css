@@ -23,7 +23,7 @@ nav{
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color:grey;
+  background-color: dimgrey;
   text-align: center;
   width: 100%;
 }
