@@ -163,7 +163,7 @@ ul{
   font-size: 30px;
 }
 .forside{
-  margin-top: 900px; 
+  margin-top: 500px;
 }
 
 fling-minislide{
@@ -174,10 +174,11 @@ fling-minislide{
 img { position:absolute;
   animation:fling-minislide 20s infinite;
   opacity:0;
-  width: 93.1%;
+  width: 50%;
   height: auto;
   margin-top: 30px;
   margin-bottom: 50px;
+  margin-left: 300px;
   }
   @keyframes fling-minislide {
     25%{opacity:1;}
