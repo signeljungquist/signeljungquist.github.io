@@ -72,7 +72,7 @@ a{
 p{
   margin: 0;
   font-style: italic;
-  font-size: 30px;
+  font-size: 20px;
   display: grid;
   grid-gap: 4px;
   grid-template-columns: 1fr 1fr 1fr;
@@ -98,7 +98,7 @@ h2{
 h3{
   color: white;
   font-style: italic;
-  font-size: 40px;
+  font-size: 30px;
 }
 section class{
   margin: 0px;
