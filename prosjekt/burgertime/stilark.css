@@ -162,6 +162,9 @@ ul{
   margin-top: 70px;
   font-size: 30px;
 }
+.forside{
+  margin-top: 900px; 
+}
 
 fling-minislide{
   overflow:hidden;
@@ -173,7 +176,8 @@ img { position:absolute;
   opacity:0;
   width: 93.1%;
   height: auto;
-  margin-top: 30px; 
+  margin-top: 30px;
+  margin-bottom: 50px;
   }
   @keyframes fling-minislide {
     25%{opacity:1;}
