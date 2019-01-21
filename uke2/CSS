@@ -1,0 +1,68 @@
+.grid{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media(max-width: 1400px){
+  .grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-image: url("tåke.jpeg")
+  }
+}
+
+@media(max-width: 1000px){
+  .grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: green;
+  }
+}
+
+@media(max-width: 800px){
+  .grid{
+    grid-template-columns: 1fr 1fr;
+    background-color: red;
+  }
+}
+@media(max-width: 600px){
+  .grid{
+    grid-template-columns: 1fr;
+    background-color: blue;
+  }
+}
+@media(max-width: 500px){
+  header>nav{
+    flex-direction: column;
+  }
+}
+
+.burger{
+  display: flex;
+  width: 16px;
+  height: 16px;
+  flex-direction: column;
+}
+.brød{
+  background-color: brown;
+  width: 10px;
+  height: 2px;
+}
+.kjøtt{
+  background-color: darkred;
+  width: 10px;
+  height: 2px;
+}
+
+body{
+  /*background-image: url("tåke.jpeg");*/
+}
+
+/*Navigasjonsbar*/
+
+header>nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/*Navigasjonsbar slutt*/

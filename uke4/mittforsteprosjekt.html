@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBA9WXmOAsRMgfXg37uk56N_y6rDmog9Pk",
+        authDomain: "mittforsteprosjekt-66411.firebaseapp.com",
+        databaseURL: "https://mittforsteprosjekt-66411.firebaseio.com",
+        projectId: "mittforsteprosjekt-66411",
+        storageBucket: "mittforsteprosjekt-66411.appspot.com",
+        messagingSenderId: "114373457608"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+  </head>
+  <body>
+
+    <form class="" method="post">
+      <label for="inpNavn">Navn:</label>
+      <input id="inpNavn"type="text" name="Navn" value="" placeholder="Navn">
+      <label for="inpTelefon">Telefon:</label>
+      <input id="inpTelefon"type="text" name="Telefon" value="" placeholder="Telefon">
+      <button id="btnKnapp"type="button" name="button">Send inn</button>
+    </form>
+
+    <script type="text/javascript">
+
+      const db = firebase.database();
+      const kontaktliste = db.ref("kontaktliste");
+
+      const inpNavn = document.querySelector("#inpNavn");
+      const inpTelefon = document.querySelector("#inpTelefon");
+      const btnKnapp = document.querySelector("#btnKnapp");
+
+      btnKnapp.onclick = function(event){
+        event.preventDefault();
+        let navn = inpNavn.value();
+        let telefon = inpTelefon.value();
+        kontaktliste.push(
+          {
+            "name": navn,
+            "telephone": telefon
+          }
+        )
+      }
+
+
+
+
+      kontaktliste.push(
+        {
+          "fitstname": "Signe",
+          "lastname": "Ljunqguist",
+          "telephone": 47719664
+        }
+      )
+    </script>
+
+  </body>
+</html>
